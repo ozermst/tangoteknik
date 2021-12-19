@@ -6,7 +6,7 @@ import Email from '../../components/email/email';
 import SocialMedia from '../../components/social-media/social-media';
 import Hero from '../../components/hero/hero';
 import Spacer from '../../components/spacer/spacer';
-import { PROFILE_IMAGE_URL } from '../../lib/constants';
+import { BUKET_PROFILE_PHOTO_URL } from '../../lib/constants';
 /* eslint-disable-next-line */
 export interface AboutProps {}
 
@@ -20,7 +20,7 @@ export function About(props: AboutProps) {
           <div className="sidebar">
             <div className="image">
               <Image
-                src={PROFILE_IMAGE_URL}
+                src={BUKET_PROFILE_PHOTO_URL}
                 alt="Özge'nin fotoğrafı"
                 layout="fill"
                 objectFit="cover"
