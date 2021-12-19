@@ -1,0 +1,28 @@
+{
+  "root": "apps/buket-e2e",
+  "sourceRoot": "apps/buket-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/buket-e2e/cypress.json",
+        "devServerTarget": "buket:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "buket:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/buket-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["buket"]
+}
