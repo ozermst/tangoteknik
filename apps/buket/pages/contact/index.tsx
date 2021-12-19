@@ -4,7 +4,7 @@ import Address from '../../components/address/address';
 import Phone from '../../components/phone/phone';
 import Email from '../../components/email/email';
 import SocialMedia from '../../components/social-media/social-media';
-import { PROFILE_IMAGE_URL } from '../../lib/constants';
+import { BUKET_PROFILE_PHOTO_URL } from '../../lib/constants';
 /* eslint-disable-next-line */
 export interface ContactProps {}
 
@@ -16,7 +16,7 @@ export function Contact(props: ContactProps) {
           <div className="sidebar">
             <div className="image">
               <Image
-                src={PROFILE_IMAGE_URL}
+                src={BUKET_PROFILE_PHOTO_URL}
                 alt="Özge'nin fotoğrafı"
                 layout="fill"
                 objectFit="cover"
