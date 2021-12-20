@@ -33,7 +33,7 @@ export function Contact(props: ContactProps) {
           <div className="content">
             <iframe
               className="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193386.58269556295!2d29.828910209289944!3d40.76938447932576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4f821ffdb3f1%3A0x5b3ad356597f9b33!2zxLB6ZMO8xZ_DvG0gUHNpa29sb2ppayBEYW7EscWfbWFubMSxayBNZXJrZXpp!5e0!3m2!1sen!2str!4v1638567496533!5m2!1sen!2str"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1505.6862367096228!2d29.041463000000004!3d40.99522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58aabbe3a3b12115!2zR8O8cmF5IMSwxZ8gSGFuxLE!5e0!3m2!1sen!2str!4v1636901720722!5m2!1sen!2str"
               loading="lazy"
             ></iframe>
           </div>
