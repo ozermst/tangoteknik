@@ -41,10 +41,8 @@ export function Callout(props: CalloutProps) {
       <style jsx>{`
         .wrapper {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr;
           align-items: center;
-          width: 80%;
-          margin: 0 auto;
         }
         .callout {
         }

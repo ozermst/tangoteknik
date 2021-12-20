@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Container from '../container/container';
+import useBreakpoints from '../../lib/useBreakpoints';
 /* eslint-disable-next-line */
 export interface HeroProps {
   heroImageUrl: string;
@@ -14,8 +15,6 @@ export function Hero({ heroImageUrl }: HeroProps) {
             <Image
               src={heroImageUrl}
               alt="hero image"
-              // width={1460}
-              // height={600}
               layout="fill"
               objectFit="cover"
               priority
@@ -26,7 +25,7 @@ export function Hero({ heroImageUrl }: HeroProps) {
       <style jsx>{`
         .hero {
           width: 100%;
-          height: 600px;
+          height: 50vh;
         }
         .image {
           position: relative;

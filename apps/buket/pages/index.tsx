@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import Hero from '../components/hero/hero';
+import HeroHome from '../components/hero-home/hero-home';
 import Services from '../components/services/services';
 import Callout from '../components/callout/callout';
 import Spacer from '../components/spacer/spacer';
-import { HERO_IMAGE_URL } from '../lib/constants';
 // import styles from './index.module.scss';
 
 export function Index() {
@@ -12,7 +11,7 @@ export function Index() {
       <Head>
         <title>Welcome to buket!</title>
       </Head>
-      <Hero heroImageUrl={HERO_IMAGE_URL} />
+      <HeroHome />
       <Spacer height="5rem" />
       <Callout />
       <Spacer height="5rem" />
