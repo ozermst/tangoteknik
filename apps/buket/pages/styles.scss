@@ -6,6 +6,42 @@
 
 :root {
   /*----------------------------------------------------*/
+  /* Font family                                           
+  /*----------------------------------------------------*/
+  --font-family: 'Montserrat', sans-serif;
+  --font-family-display: 'Montserrat', sans-serif;
+
+  /*----------------------------------------------------*/
+  /* Font sizes                                           
+  /*----------------------------------------------------*/
+  --font-size-base: 16px;
+
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.5rem;
+  --h5-font-size: 1.25rem;
+  --h6-font-size: 1rem;
+
+  --display-1-font-size: 5rem;
+  --display-2-font-size: 4.5rem;
+  --display-3-font-size: 4rem;
+  --display-4-font-size: 3.5rem;
+  --display-5-font-size: 3rem;
+  --display-6-font-size: 2.5rem;
+
+  --text-xs-font-size: 0.75rem;
+  --text-sm-font-size: 0.875rem;
+  --text-base-font-size: 1rem;
+  --text-lg-font-size: 1.125rem;
+  --text-xl-font-size: 1.25rem;
+  --text-2xl-font-size: 1.5rem;
+  --text-3xl-font-size: 1.875rem;
+  --text-4xl-font-size: 2.25rem;
+  --text-5xl-font-size: 3rem;
+  --text-6xl-font-size: 4rem;
+
+  /*----------------------------------------------------*/
   /* Font weights                                           
   /*----------------------------------------------------*/
   --font-weight-lighter: lighter;
@@ -53,4 +89,7 @@
 html,
 body {
   font-family: var(--font-family);
+  line-height: 1.5rem;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
 }
