@@ -9,11 +9,15 @@ export interface BlogLayoutProps {
 export function BlogLayout({ preview, children }: BlogLayoutProps) {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="blogLayout">
         <Alert preview={preview} />
         <main>{children}</main>
       </div>
-      <style jsx>{``}</style>
+      <style jsx>{`
+        .blogLayout {
+          min-height: 100vh;
+        }
+      `}</style>
     </>
   );
 }

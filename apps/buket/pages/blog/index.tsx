@@ -8,7 +8,6 @@ import { getClient, overlayDrafts } from '../../lib/sanity.server';
 import { Post } from '../../types/blog';
 import { SITE_NAME } from '../../lib/constants';
 /* eslint-disable-next-line */
-
 export interface BlogProps {
   allPosts: Array<Post>;
   preview: boolean;

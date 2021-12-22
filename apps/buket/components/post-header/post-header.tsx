@@ -29,7 +29,7 @@ export function PostHeader({
       <div className="coverImage">
         <CoverImage title={title} image={coverImage} slug={slug} />
       </div>
-      <div className="max-w-2xl mx-auto">
+      <div className="avatarMobileWrapper">
         <div className="avatarMobile">
           <Avatar name={author.name} picture={author.picture} />
         </div>
@@ -40,6 +40,11 @@ export function PostHeader({
       <style jsx>{`
         .avatar {
           display: none;
+        }
+        .avatarMobileWrapper {
+          max-width: 42rem;
+          margin-left: auto;
+          margin-right: auto;
         }
         .avatarMobile {
           display: block;

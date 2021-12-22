@@ -29,21 +29,45 @@ export function PostPreview({
   slug,
 }: PostPreviewProps) {
   return (
-    <div>
-      <div className="mb-5">
+    <>
+      <div className="coverImage">
         <CoverImage slug={slug} title={title} image={coverImage} />
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3 className="title">
         <Link href={`/posts/${slug}`}>
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
-      <div className="text-lg mb-4">
+      <div className="date">
         <Date dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <p className="avatar">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />
-    </div>
+      <style jsx>{`
+        .coverImage {
+          margin-bottom: 1.25rem;
+        }
+        .title {
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+          margin-bottom: 0.75rem;
+          line-height: 1.375;
+        }
+        .date {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+          margin-bottom: 1rem;
+        }
+        .avatar {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+          line-height: 1.625;
+          margin-bottom: 1rem;
+        }
+        @media screen and (min-width: 640px) {
+        }
+      `}</style>
+    </>
   );
 }
 

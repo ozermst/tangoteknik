@@ -9,7 +9,7 @@ export function PostBody({ content }: PostBodyProps) {
   return (
     <>
       <div className="content">
-        <BlockContent blocks={content} className="" />
+        <BlockContent blocks={content} />
       </div>
       <style jsx>{`
         .content {
