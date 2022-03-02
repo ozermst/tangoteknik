@@ -3,7 +3,9 @@ import Alert from '../alert/alert';
 /* eslint-disable-next-line */
 export interface BlogLayoutProps {
   preview: boolean;
-  children: JSX.Element | JSX.Element[];
+  children?: React.ReactChild | React.ReactChild[];
+  // children?: React.ReactNode; This seems to be the best option
+  // children: JSX.Element | JSX.Element[] | string | string[];
 }
 
 export function BlogLayout({ preview, children }: BlogLayoutProps) {

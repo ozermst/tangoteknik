@@ -57,7 +57,7 @@ export const socialMedia = [
     id: 1,
     name: 'instagram',
     accountName: '',
-    url: 'https://instagram.com/izdusum.psikoloji?utm_medium=copy_link',
+    url: 'https://instagram.com/tango.teknik?utm_medium=copy_link',
   },
   {
     id: 2,
