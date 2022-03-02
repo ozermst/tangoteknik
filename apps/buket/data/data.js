@@ -63,6 +63,6 @@ export const socialMedia = [
     id: 2,
     name: 'youtube',
     accountName: '',
-    url: 'https://youtube.com/channel/UCM0t5_zfCehzosI5Y-7NY_g',
+    url: 'https://www.youtube.com/channel/UCWlMyOOR7Sy2dM2YQMH2hUA',
   },
 ];
